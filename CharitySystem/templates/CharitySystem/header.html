@@ -1,0 +1,47 @@
+{% extends "CharitySystem/head-foot-page.html" %}
+{% load static %}
+{% block content %}
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+
+<div class="mt-5 mb-1">
+    <img src="{% static 'img/eat.jpg' %}" width="100%" height="650cm" alt="charity">
+</div>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+
+<div class="trend">
+    <div class="container">
+        <h3 class="pt-3">Helpless Little Children</h3>
+        <h2>Fundraising for Orphanages</h2>
+
+        <div class="row">
+            <div class="col-4 ">
+                <img src="{% static 'img/grp.jpg' %}" alt="covid-19" width="100%" style="margin-top:15px;">
+            </div>
+            <div class="col-8  text-justify pt-3">
+               <p>A lot happens within our environment. It may be hard to believe but yet true that the life orphan children live is of big challenge. I fail to know why it happens in such a way that after the parent(s) pass away, their children start testing the wrath of their death, as these people who remain to take care of the children, they again make them pass through regrettable experiences. These children suffer a lot, to the extent of missing out schooling because no one is willing to pay their school dues.</p>
+            <p>What is more hurting is that even the little the parents leave for their children, the relatives (uncles and aunties) start sharing them among themselves in equal ratios. Children are exposed to child labour; young girls are forced to get in marriages, taken like they are not humans, which make them live unhappy. In your own way, just imagine a situation where you can pass through a day with nothing for your stomach.</p>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+
+    <div class="container mt-3 pb-3 ">
+        <div class="row">
+            <div class="col-8 pt-3">
+                
+                <p class="text-justify"> This is what the orphan child experiences as most of them take days only getting one meal a day and at times move out with totally nothing to eat.</p>
+                <button class="btn btn-outline-primary btn-lg" onclick="location.href='/payment/'">Donate</button>
+            </div>
+            <div class="col-4">
+                <img src="{% static 'img/lp.jpeg' %}" alt="covid-19" width="100%" style="margin-top:15px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+
+
+{% endblock %}
